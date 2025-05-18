@@ -1,18 +1,28 @@
 import React from "react";
-
-const Text = ({ mark }) => {
-  console.log(mark);
+import { RxCrossCircled } from "react-icons/rx";
+const Text = ({ mark, hanhleErrorButton }) => {
+  // console.log(mark);
   return (
-    <div>
-      <div className="flex items-center space-x-2 mt-5">
-        <div className="mask mask-squircle w-12 h-12">
-          <img src={mark.image} alt="" />
+    <div className="flex items-center space-x-2">
+      <div>
+        <div className="flex items-center pt-3 space-x-2 mt-5">
+          <img
+            className="mask mask-squircle h-12 w-12"
+            src={mark.image}
+            alt=""
+          />
+
+          <h3 className="text-xl">{mark.title}</h3>
         </div>
-        <h3 className="text-xl">{mark.title}</h3>
+        <div className="flex justify-evenly">
+          <p>${mark.currentBidPrice}</p>
+          <p>Bids : {mark.bidsCount}</p>
+        </div>
       </div>
-      <div className="flex justify-evenly">
-        <p>${mark.currentBidPrice}</p>
-        <p>Bids : {mark.bidsCount}</p>
+      <div>
+        <button onClick={() => hanhleErrorButton(mark)}>
+          <RxCrossCircled size={25} />
+        </button>
       </div>
     </div>
   );

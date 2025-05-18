@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import Blogs from "./Components/Blogs/Blogs";
@@ -10,11 +10,24 @@ import { toast } from "react-toastify";
 
 function App() {
   const [marks, setMarks] = useState([]);
+  const [price, setPrice] = useState(0);
+  const [error, setError] = useState([]);
+  const hanhleErrorButton = (mark) => {
+    console.log(mark);
+    const removed = [...error, mark];
+    setError(removed);
+    toast.error("item removed to Favorite ");
+  };
+
   const handleMarksButton = (blog) => {
     const nweMarks = [...marks, blog];
     setMarks(nweMarks);
     toast.success("item added to Favorite ");
   };
+  useEffect(() => {
+    const total = marks.reduce((sum, blog) => sum + blog.currentBidPrice, 0);
+    setPrice(total);
+  }, [marks]);
   return (
     <>
       <Navbar></Navbar>
@@ -48,14 +61,22 @@ function App() {
             ) : (
               <div>
                 {marks.map((mark) => (
-                  <Text key={mark.id} mark={mark}></Text>
+                  <Text
+                    key={mark.id}
+                    hanhleErrorButton={hanhleErrorButton}
+                    mark={mark}
+                  ></Text>
                 ))}
               </div>
             )}
             <p className="border mt-7"></p>
             <div className="flex justify-between mt-10">
               <h3>Total Bids Amount:</h3>
-              <h2 className="text-xl font-medium">$0000</h2>
+              {marks.length == 0 ? (
+                <h2 className="text-xl font-medium">$0000</h2>
+              ) : (
+                <div>{price}</div>
+              )}
             </div>
           </div>
         </div>
