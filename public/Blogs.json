@@ -1,0 +1,77 @@
+
+[
+    {
+        "id":1,
+        "image":"https://i.ibb.co.com/99vZDW5Z/Bid1-min.png",
+        "title":"Vintage Leica M3 Camera",
+        "currentBidPrice": 3000,
+        "TimeLeft":"1 days left",
+        "description": "The Leica M3, introduced in 1954, is one of the most legendary and influential 35mm rangefinder cameras ever made. It marked the beginning of Leica's iconic M-series, combining precision engineering with compact design, and is widely considered a masterpiece of mechanical camera craftsmanship",
+
+        "bidsCount":12
+    },
+
+    {
+        "id":2,
+        "image":"https://i.ibb.co.com/MYTLgq1/Bid2-min.png",
+        "title":"1965 Gibson SG Standard Electric Guitar",
+        "currentBidPrice": 5000,
+        "TimeLeft":"6 days left",
+        "description": "The 1965 Gibson SG Standard is a highly collectible and iconic electric guitar, known for its sleek double-cutaway design, powerful tone, and association with rock legends. Originally introduced in 1961 as a redesign of the Les Paul model, by 1963 it was officially renamed the SG (Solid Guitar). The 1965 model year is especially notable as it marks a transitional period in Gibson’s production, shortly after the company was acquired by Norlin (then called ECL), and some subtle design changes began to appear.",
+        "bidsCount":13
+    },
+
+
+    {
+        "id":3,
+        "image":"https://i.ibb.co.com/9kw45smv/Bid3-min.png",
+        "title":"Original Apple Macintosh 128K (1984)",
+        "currentBidPrice": 2000,
+        "TimeLeft":"4 days left",
+
+        "description": "The original Apple Macintosh 128K, released on January 24, 1984, was a groundbreaking personal computer that revolutionized the way people interacted with technology. As Apple’s first mass-market computer with a graphical user interface (GUI) and mouse, it made computing more accessible to non-technical users, moving away from command-line interfaces. The Macintosh 128K featured a Motorola 68000 processor running at 8 MHz, 128 kilobytes of RAM, and a 9-inch black-and-white CRT display with a resolution of 512x342 pixels. It came with a single 400 KB 3.5-inch floppy drive, no internal hard drive, and introduced users to software like MacPaint and MacWrite, which showcased its WYSIWYG (What You See Is What You Get) capabilities.",
+        "bidsCount":14
+    },
+
+    {
+        "id":4,
+        "image":"https://i.ibb.co.com/zV5tPbMM/Bid4-min.png",
+        "title":"Rolex Submariner 16610",
+        "currentBidPrice": 4000,
+        "TimeLeft":"3 days left",
+
+        "description": "The Rolex Submariner 16610 is one of the most iconic and beloved models in the history of dive watches, produced from 1989 to 2010. Known for its classic design, robust performance, and everyday versatility, the 16610 features a 40mm stainless steel case, a black aluminum bezel insert, and the highly reliable Caliber 3135 automatic movement. It’s water-resistant up to 300 meters (1,000 feet), making it a true professional diver’s watch. One of the last Submariners to feature aluminum bezels and holes in the lugs (early versions), it marks the transition between vintage and modern Rolex. Its timeless aesthetics, from the Mercedes hands to the clean black dial with white gold-trimmed hour markers, have made it a favorite among collectors and enthusiasts. The 16610 was eventually replaced by the Submariner 116610, which introduced a ceramic bezel and other modern upgrades, but many still regard the 16610 as the perfect balance of classic design and everyday wearability.",
+        "bidsCount":15
+    },
+
+    {
+        "id":5,
+        "image":"https://i.ibb.co.com/5XmfyVXZ/Bid6-min.png",
+        "title":"First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+        "currentBidPrice": 6000,
+        "TimeLeft":"10 days left",
+        "description": "The first edition of The Great Gatsby by F. Scott Fitzgerald, published on April 10, 1925 by Charles Scribner’s Sons, is one of the most iconic and sought-after works in American literature. Known for its vivid depiction of the Jazz Age and its themes of wealth, illusion, and the American Dream, the novel’s first edition is especially prized by collectors. A true first printing includes notable misprints—such as chatter on page 60—and features the legendary dust jacket designed by Francis Cugat",
+        "bidsCount":16
+    },
+
+    {
+        "id":6,
+        "image":"https://i.ibb.co.com/hJLzxcQq/Bid5-min.png",
+        "title":"Mid-Century Modern Eames chair",
+        "currentBidPrice": 2000,
+        "TimeLeft":"5 days left",
+
+        "description": "The Eames Chair generally refers to a collection of furniture designed by Charles and Ray Eames, a husband-and-wife duo who revolutionized modern furniture design in the mid-20th century. Their most famous creation is the Eames Lounge Chair and Ottoman, released in 1956 by Herman Miller (and later by Vitra in Europe).",
+        "bidsCount":17
+    },
+
+    {
+        "id":7,
+        "image":"https://i.ibb.co.com/wZWhpLGk/Bid7-min.png",
+        "title":"Banksy Original Screen Print",
+        "currentBidPrice": 5000,
+        "TimeLeft":"6 days left",
+        "description": "A Banksy original screen print is often provocative, using satirical imagery to deliver political messages with bold, urban flair. His stenciled designs carry an anonymous yet iconic presence, combining grungy textures with subversive themes that challenge societal norms",
+        "bidsCount":18
+    }
+]
