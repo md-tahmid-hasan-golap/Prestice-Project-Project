@@ -28,7 +28,7 @@ const Blogs = ({ handleMarksButton, marks }) => {
               <Blog
                 key={blog.id}
                 handleMarksButton={handleMarksButton}
-                marks={marks}
+                marks={marks.find((item) => item.id == blog.id)}
                 blog={blog}
               ></Blog>
             ))}

@@ -11,11 +11,11 @@ import { toast } from "react-toastify";
 function App() {
   const [marks, setMarks] = useState([]);
   const [price, setPrice] = useState(0);
-  const [error, setError] = useState([]);
+
   const hanhleErrorButton = (mark) => {
     console.log(mark);
-    const removed = [...error, mark];
-    setError(removed);
+    const removed = marks.filter((item) => item.id !== mark.id);
+    setMarks(removed);
     toast.error("item removed to Favorite ");
   };
 

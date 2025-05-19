@@ -22,14 +22,11 @@ const Blog = ({ blog, handleMarksButton, marks }) => {
         <td>{TimeLeft}</td>
         <th>
           <button
-            disabled={marks.includes(blog)}
+            disabled={marks}
             onClick={() => handleMarksButton(blog)}
             className="btn btn-ghost btn-xs"
           >
-            <GiSelfLove
-              className={marks.includes(blog) ? "text-red-500" : ""}
-              size={25}
-            />
+            <GiSelfLove className={marks ? "text-red-500" : ""} size={25} />
           </button>
         </th>
       </tr>
